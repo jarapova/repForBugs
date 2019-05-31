@@ -16,8 +16,8 @@ feature 'TrueAutomation.IO capybara example' do
     # find(:xpath, ta('EC:content:pipelines', "//a[@class='black-link nav-menu-category__item at-main-menu-pipelines']")).click
     find(:xpath, "//a[@class='black-link nav-menu-category__item at-main-menu-pipelines']").click
 
-    # find(ta(   'EC:content:choosePipeline')).click
-    find(:xpath, ta('EC:content:choosePipeline', "//div/a[@title='pipJul']")).click
+    # find(:xpath, ta('EC:content:choosePipeline', "//div/a[@title='pipJul_NOT_DELETE']")).click
+    find(:xpath, "//div/a[@title='pipJul_NOT_DELETE']").click
 
   end
 end
