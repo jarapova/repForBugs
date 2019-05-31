@@ -1,24 +1,2 @@
-# trueautomation-capybara-example
+# repForBugs/spec/test_scenario/selectPipelineBug.rb - TA-866 https://softesis.atlassian.net/browse/TA-866
 
-You must have installed TrueAutomation client, Ruby 2.3.0 or later.
-
-## How to run test:
-
-* Checkout the project
-
-```
-git clone https://github.com/shapovalovei/trueautomation-capybara.git
-```
-
-* Init the project, using `trueautomation init` command
-
-* Install required dependencies
-
-```bash
-bundle install
-```
-* Run test
-
-```bash
-spec spec/features/example_spec.rb
-```
